@@ -1,10 +1,13 @@
 .Nav{
     background-color:black;
-    height: 5rem;
+    height: 4.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 2rem;
     font-weight: 700;
     color:white;
+}
+body{
+    background-color: rgb(249, 240, 240);
 }

@@ -20,13 +20,13 @@
     border-radius: 10px 10px 0 0;
     margin: 5px;
     width: 10rem;
-    height: 10rem;
+    height: 11rem;
 }
 
 img{
     width:10em;
     border-radius: 10px 10px 0 0;
-    height: 7em;
+    height: 8em;
     justify-content: center;
     text-align: center;
     display: flex;
@@ -57,13 +57,27 @@ a{
 }
 .btn1{
     background-color: transparent;
+    margin-top: 15px;
 }
 .Video{
     height: 1rem;
     width: 50%;
-    height: 27rem;
-    margin-top:1rem;
+    height: 24rem;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.playerAndName{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 29rem;  
+    justify-content: space-around;
+    gap: 10px;
+}
+.name{
+    font-size: 22px;
+    font-weight: 700;
+    
 }
