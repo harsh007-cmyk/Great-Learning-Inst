@@ -1,0 +1,69 @@
+
+
+.Cards{
+    padding:15px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.crd{
+    width: 55%;
+}
+.slider{
+    width: 100%;
+    height: 12rem;
+}
+.card{
+    display: flex;
+    background-color:white;
+    border-radius: 10px 10px 0 0;
+    margin: 5px;
+    width: 10rem;
+    height: 10rem;
+}
+
+img{
+    width:10em;
+    border-radius: 10px 10px 0 0;
+    height: 7em;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+.Name{
+    display: flex;
+    justify-content: center;
+    
+}
+a{
+    text-decoration: none;  
+    color: black;
+}
+.card .playList{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.playList .Name{
+    text-align: center;
+    margin-bottom: 0.5%;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.btn1{
+    background-color: transparent;
+}
+.Video{
+    height: 1rem;
+    width: 50%;
+    height: 27rem;
+    margin-top:1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
